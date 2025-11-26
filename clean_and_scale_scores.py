@@ -8,5 +8,5 @@ def clean_and_scale_scores(scores, min_score, max_score):
 
     scaled = (clean - min_score) / (max_score - min_score)
 
-    return scaled
+    return scaled
 

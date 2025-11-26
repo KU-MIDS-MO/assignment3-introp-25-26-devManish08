@@ -12,4 +12,4 @@ def count_values_in_bins(data, bin_edges):
 
         count[i] = np.sum(b)
 
-    return count
+    return count

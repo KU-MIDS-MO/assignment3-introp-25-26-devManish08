@@ -10,4 +10,4 @@ def moving_average(signal, window_size):
         end = min(a, i + b + 1)
         final[i] = np.mean(signal[start:end])
 
-    return final
+    return final
